@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
@@ -29,12 +30,9 @@ public class MainActivity extends Activity {
 			
 			@Override
 			public void onClick(View arg0) {
-				i++;
-				Toast.makeText(MainActivity.this, "you have clicked this button "+i+" times!", Toast.LENGTH_SHORT).show();
-				if(i%3==0){
-					Intent intent = new Intent(MainActivity.this, ActivitySecond.class);
-					startActivity(intent);
-				}
+				Intent intent = new Intent(MainActivity.this, ActivitySecond.class);
+				intent.putExtra("text", ((TextView)findViewById(R.id.textView1)).getText());
+				startActivity(intent);
 			}
 		});
 		
@@ -47,6 +45,27 @@ public class MainActivity extends Activity {
 				intent.setData(Uri.parse("http://www.baidu.com"));
 				startActivity(intent);
 				
+			}
+		});
+		
+		Button button3 = (Button)findViewById(R.id.button3);
+		button3.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View paramView) {
+				i++;
+				TextView textView = (TextView)findViewById(R.id.textView1);
+				textView.setText("you have clicked this button "+i+" times!");
+			}
+		});
+		
+		Button button4 = (Button)findViewById(R.id.button4);
+		button4.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View paramView) {
+				Intent intent = new Intent(MainActivity.this, ActivityLifeCycle.class);
+				startActivity(intent);
 			}
 		});
 	}

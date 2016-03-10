@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="21" />
+        android:targetSdkVersion="23" />
 
     <application
         android:allowBackup="true"
@@ -24,6 +24,9 @@
         </activity>
         
         <activity android:name=".ActivitySecond"></activity>
+        <activity android:name=".ActivityLifeCycle"></activity>
+        <activity android:name=".ActivityLifeCycleNormal"></activity>
+        <activity android:name=".ActivityLifeCycleDialog" android:theme="@android:style/Theme.Dialog"></activity>
     </application>
 
 </manifest>

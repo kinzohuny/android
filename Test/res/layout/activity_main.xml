@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/textView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="5dp"
         android:text="@string/c_second" />
     <Button
         android:id="@+id/button2"
@@ -28,7 +28,23 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/button1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="5dp"
         android:text="@string/c_baidu" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/c_click" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/c_cycle" />
 
 </RelativeLayout>

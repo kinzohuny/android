@@ -12,5 +12,11 @@
     
     <string name="c_second">second page</string>
     <string name="c_baidu">baidu</string>
+    <string name="c_click">click</string>
+    
+    <string name="c_cycle">Activity Cycle</string>
+    <string name="c_normal">Normal Activity</string>
+    <string name="c_dialog">Dialog Activity</string>
+
     
 </resources>
