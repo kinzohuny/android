@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="item_add">add</string>
+    <string name="item_remove">remove</string>
+    <string name="item_back">back</string>
+    <string name="item_exit">exit</string>
+    
+    <string name="c_second">second page</string>
+    <string name="c_baidu">baidu</string>
+    
+</resources>

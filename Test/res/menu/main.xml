@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.test.MainActivity" >
+
+    <item android:id="@+id/item_add" android:title="@string/item_add"></item>
+    <item android:id="@+id/item_remove" android:title="@string/item_remove"></item>
+    <item android:id="@+id/item_exit" android:title="@string/item_exit"></item>
+
+</menu>
